@@ -1,0 +1,316 @@
+body{
+    background: linear-gradient(to right,white, #bcbdc4);
+    height: 60px;
+}
+
+.headerex{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 7;
+    font-family: sans-serif;
+    
+    -webkit-box-shadow: 0 3px 8px rgba(0,0,0,.25);
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background: rgb(59, 89, 152);
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 7;
+    font-family: sans-serif;
+}
+#img1{
+    left: 100px;
+    height: 50px;
+    width: 110px;
+    top: 25px;
+}
+#form1{
+    left: 700px;
+    top: 20px;
+    height: 60px;
+    width: 180px;
+    
+}
+#link
+{
+    color: rgb(156, 180, 216);
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+    text-decoration: none;
+   
+}
+#form2{
+    left: 895px;
+    top: 20px;
+    height: 60px;
+    width: 9px;
+}
+#submit
+{
+     left: 1100px;
+    top: 39px;
+    height: 22px;
+    width: 50px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: rgb(59, 89, 152);
+    position: fixed;
+    z-index: 10;
+    border-color: rgb(41, 72, 125);
+}
+.bodyx
+{
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    height: 645px;
+}
+
+#intro1{
+    top: 40px;
+    left: 700px;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    width: 500px;
+    height: 60px;
+    margin-bottom: 5px;
+    
+}
+#intro2
+{
+     top: 80px;
+    left: 700px;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    width: 500px;
+    height: 60px;
+    margin-bottom: 20px;
+    line-height: 23.94px;
+}
+#intro3{
+    top: 40px;
+    left: 100px;
+    font-family:  sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    width: 500px;
+    height: 60px;
+    margin-bottom: 5px;
+    
+}
+#form3
+{
+    top: 150px;
+    left: 700px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #142170;
+    width: 450px;
+    height: 495px;
+}
+#fname{
+    padding-bottom: 12px;
+    border-color: rgb(189, 199, 216);
+    border-radius: 5px;
+    background-color: rgb(247,247,247);
+    border-width: 1px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    width: 200px;
+    height: 25px;
+}
+#lname{
+    padding-bottom: 12px;
+    border-color: rgb(189, 199, 216);
+    border-radius: 5px;
+    background-color: rgb(247,247,247);
+    border-width: 1px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    width: 200px;
+        height: 25px;
+
+}
+#email{
+     padding-bottom: 12px;
+     margin-top: 10px;
+    border-color: rgb(189, 199, 216);
+    border-radius: 5px;
+    background-color: rgb(247,247,247);
+    border-width: 1px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    width: 410px;
+        height: 25px;
+
+}
+#pass{
+     padding-bottom: 12px;
+     margin-top: 10px;
+    border-color: rgb(189, 199, 216);
+    border-radius: 5px;
+    background-color: rgb(247,247,247);
+    border-width: 1px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    width: 410px;
+        height: 25px;
+
+}
+#date{
+    
+    position: absolute;
+    left: 0;
+    top: 150px;
+    width: 100%;
+    height: 645px;
+    color: rgb(29, 33, 41);
+}
+#datet{
+    padding-bottom: 12px;
+    border-color: rgb(189, 199, 216);
+    border-radius: 5px;
+    background-color: rgb(247,247,247);
+    border-width: 1px;
+    
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    width: 200px;
+    height: 25px;
+}
+#birthday-help{
+    color:  rgb(54, 88, 153);
+    
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 11px;
+    height: 28px;
+    line-height: 14.74px;
+    margin-left: 10px;
+    max-width: 150px;
+    vertical-align: middle;
+    width: 150px;
+
+    text-decoration: none;
+    
+}
+#female
+{
+    font-family: sans-serif;
+    
+    color:  rgb(29, 33, 41);
+    font-size: 18px;
+}
+#male
+{
+    font-family: sans-serif;
+}
+#pp{
+    
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+}
+#submit2
+{
+     left: 100px;
+    
+    align-items: flex-start;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(105, 167, 78);
+    background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgb(44, 81, 21);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(59, 110, 34);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(59, 110, 34);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(59, 110, 34);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: rgb(164, 227, 136) 0px 1px 1px 0px inset;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 700;
+    height: 39px;
+    letter-spacing: normal;
+    line-height: 23.94px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    min-width: 194px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    position: relative;
+    text-align: center;
+    text-indent: 0px;
+    text-rendering: optimizeLegibility;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+    text-transform: none;
+    width: 194px;
+    word-spacing: 0px;    
+    -webkit-appearance: none;
+    -webkit-border-image: none;         
+}
+#pp2{
+     color: rgb(119, 119, 119);
+    font-size: 15px;
+}
